@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Router, Switch, Route } from "react-router-dom";
+import Home from "./views/Home";
+import About from "./views/About";
+import MyOneYear from "./views/MyOneYear";
+import Timeline from "./views/Timeline";
+import { createBrowserHistory } from "history";
 
-function App() {
+const browserHistory = createBrowserHistory();
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router history={browserHistory}>
+      <div>
+        <Switch>
+          <Route exact path="/" name="Home" component={Home} />
+          <Route exact path="/about" name="About" component={About} />
+          <Route exact path="/haha" name="MyOneYear" component={MyOneYear} />
+          <Route exact path="/timeline" name="Timeline" component={Timeline} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
-
-export default App;
