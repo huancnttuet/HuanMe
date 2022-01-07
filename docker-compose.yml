@@ -2,6 +2,7 @@ version: "2"
 services:
   nginx-react:
     container_name: ngixreactapp
+    user: root
     build:
       context: .
       dockerfile: Dockerfile
@@ -9,3 +10,4 @@ services:
       - 80:80
     environment:
       NODE_ENV: production
+    restart: always
