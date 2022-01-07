@@ -49,7 +49,7 @@ const Home = () => {
 						<h1 className='home__title'>Hi, I'am Mok</h1>
 						<h3 className='home__subtitle'>Developer</h3>
 						<p className='home__description'>
-							25 năm không một mảnh tình vắt vai
+						gracefully shutting downgracefully shutting downgracefully shutting downgracefully shutting downgracefully shutting down
 						</p>
 						<a href='/#contact' className='button button--flex'>
 							Contact Me <i class='uil uil-message button__icon'></i>
