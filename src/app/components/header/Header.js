@@ -33,8 +33,8 @@ const Header = () => {
 							</a>
 						</li>
 						<li className='nav_item' onClick={handleClick}>
-							<a href='/#services' className='nav__link'>
-								<i class='uil uil-briefcase-alt nav__icon'></i> Services
+							<a href='/#qualification' className='nav__link'>
+								<i class='uil uil-briefcase-alt nav__icon'></i> Qualification
 							</a>
 						</li>
 						<li className='nav_item' onClick={handleClick}>

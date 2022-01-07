@@ -8,10 +8,10 @@ const Skills = () => {
 			icon: <i class='uil uil-brackets-curly skills__icon'></i>,
 			open: true,
 			details: [
-				{ name: 'HTML', number: '70%' },
-				{ name: 'CSS', number: '80%' },
+				{ name: 'HTML', number: '50%' },
+				{ name: 'CSS', number: '50%' },
 				{ name: 'JavaScript', number: '60%' },
-				{ name: 'React', number: '95%' }
+				{ name: 'React', number: '60%' }
 			]
 		},
 		{
@@ -20,22 +20,22 @@ const Skills = () => {
 			icon: <i class='uil uil-server-network-alt skills__icon'></i>,
 			open: false,
 			details: [
-				{ name: 'HTML', number: '90%' },
-				{ name: 'HTML', number: '90%' },
-				{ name: 'HTML', number: '90%' },
-				{ name: 'HTML', number: '90%' }
+				{ name: 'Nodejs', number: '50%' },
+				{ name: 'Flask', number: '50%' },
+				{ name: 'Python', number: '60%' },
+				{ name: 'Docker', number: '40%' }
 			]
 		},
 		{
-			skill: 'Frontend Developer',
-			subtitle: 'More than 2 years',
+			skill: 'Devops Developer',
+			subtitle: 'More than 1 years',
 			icon: <i class='uil uil-server-network-alt skills__icon'></i>,
 			open: false,
 			details: [
-				{ name: 'HTML', number: '90%' },
-				{ name: 'HTML', number: '90%' },
-				{ name: 'HTML', number: '90%' },
-				{ name: 'HTML', number: '90%' }
+				{ name: 'Jenkins', number: '40%' },
+				{ name: 'Docker', number: '40%' },
+				{ name: 'AWS', number: '30%' },
+				{ name: 'Azure', number: '30%' }
 			]
 		}
 	]
@@ -45,7 +45,7 @@ const Skills = () => {
 	return (
 		<section className='skills section' id='skills'>
 			<h2 className='section__title'>Skills</h2>
-			<span className='section__subtitle'>My technical leve l</span>
+			<span className='section__subtitle'>My technical level</span>
 
 			<div className='skills__container container grid'>
 				<div>

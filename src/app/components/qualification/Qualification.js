@@ -5,47 +5,53 @@ const Qualification = () => {
 	const education = [
 		{
 			major: 'Information Techlonogy',
-			university: 'UET - VNU',
-			time: '2017-2021',
+			university: 'Military Technical Academy',
+			time: '2015-2017',
 			left: true
 		},
 		{
 			major: 'Information Techlonogy',
-			university: 'UET - VNU',
-			time: '2017-2021',
+			university: 'University of Engineering and Technology - VNU',
+			time: '2017-2022',
 			left: false
 		},
-		{
-			major: 'Information Techlonogy',
-			university: 'UET - VNU',
-			time: '2017-2021',
-			left: true
-		}
+		// {
+		// 	major: 'Information Techlonogy',
+		// 	university: 'UET - VNU',
+		// 	time: '2017-2021',
+		// 	left: true
+		// }
 	]
 
 	const work = [
 		{
-			major: 'Inter',
-			university: 'Teko',
-			time: '2017-2021',
+			major: 'Intern',
+			university: 'Teko Vietnam Technology JSC',
+			time: '06/2019 - 02/2020',
 			left: true
 		},
 		{
-			major: 'Information Techlonogy',
-			university: 'UET - VNU',
-			time: '2017-2021',
+			major: 'Software Engineer',
+			university: 'Vingroup Advanced Analytics (Vantix Inc.)',
+			time: ' 09/2020 - 02/2021',
 			left: false
 		},
 		{
-			major: 'Information Techlonogy',
-			university: 'UET - VNU',
-			time: '2017-2021',
+			major: 'Software Engineer',
+			university: 'Viettel High Technology Industries Corporation',
+			time: '04/2021 - 07/2021',
 			left: true
+		},
+		{
+			major: 'Software Engineer',
+			university: 'Punch Entertainment Vietnam Co., Ltd',
+			time: '08/2021 - present',
+			left: false
 		}
 	]
 
 	return (
-		<section className='qualification section'>
+		<section className='qualification section' id='qualification'>
 			<h2 className='section__title'>Qualification</h2>
 			<span className='section__subtitle'>My personal journey</span>
 
