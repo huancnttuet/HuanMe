@@ -139,7 +139,7 @@ img {
 .header {
 	width: 100%;
 	position: fixed;
-	bottom: 0;
+	top: 0;
 	left: 0;
 	z-index: var(--z-fixed);
 	background-color: var(--body-color);
@@ -731,7 +731,11 @@ img {
 }
 
 /* For medium devices */
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 450px) {
+	.container,
+	.nav {
+		max-width: 450px;
+	}
 	.home__content {
 		grid-template-columns: max-content 1fr 1fr;
 	}
