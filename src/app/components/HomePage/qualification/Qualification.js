@@ -1,54 +1,16 @@
 import { useState } from 'react'
-
+import { useDispatch, useSelector } from 'react-redux'
+import { getEducationsList } from '../../../redux/actions'
+import {
+	educationsListSelector,
+	worksListSelector
+} from '../../../redux/selectors'
 const Qualification = () => {
+	const dispatch = useDispatch()
 	const [state, setState] = useState('education')
-	const education = [
-		{
-			major: 'Information Techlonogy',
-			university: 'Military Technical Academy',
-			time: '2015-2017',
-			left: true
-		},
-		{
-			major: 'Information Techlonogy',
-			university: 'University of Engineering and Technology - VNU',
-			time: '2017-2022',
-			left: false
-		},
-		// {
-		// 	major: 'Information Techlonogy',
-		// 	university: 'UET - VNU',
-		// 	time: '2017-2021',
-		// 	left: true
-		// }
-	]
+	const education = useSelector(educationsListSelector)
 
-	const work = [
-		{
-			major: 'Intern',
-			university: 'Teko Vietnam Technology JSC',
-			time: '06/2019 - 02/2020',
-			left: true
-		},
-		{
-			major: 'Software Engineer',
-			university: 'Vingroup Advanced Analytics (Vantix Inc.)',
-			time: ' 09/2020 - 02/2021',
-			left: false
-		},
-		{
-			major: 'Software Engineer',
-			university: 'Viettel High Technology Industries Corporation',
-			time: '04/2021 - 07/2021',
-			left: true
-		},
-		{
-			major: 'Software Engineer',
-			university: 'Punch Entertainment Vietnam Co., Ltd',
-			time: '08/2021 - present',
-			left: false
-		}
-	]
+	const work = useSelector(worksListSelector)
 
 	return (
 		<section className='qualification section' id='qualification'>
