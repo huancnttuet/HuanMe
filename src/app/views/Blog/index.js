@@ -11,7 +11,7 @@ const Blog = () => {
 			content: `<p>Cảm thấy thật trống rỗng...</p>
       
       <p>Tâm sự của người nghiện...</p>
-      <p>
+      <p> 
         Như 1 thói quen, dù đã qua ngày mới rồi nhưng 2 mắt vẫn dán vào chiếc
         màn hình 27 inch. Sự cô đơn có lẽ không theo đuổi tôi lâu như thế.
         Ngồi nghĩ lại về những chuyện mình đã trả qua thật sự không rõ mình
