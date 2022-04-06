@@ -10,7 +10,8 @@ const Header = () => {
 		<header className='header' id='header'>
 			<nav className='nav container'>
 				<a href='/#' className='nav__logo'>
-					Huan Mok
+					Mokieeeeeeeee
+					<img src="\logo32.png" alt="" />
 				</a>
 				<div
 					className={openMenu ? 'nav__menu show-menu' : 'nav__menu'}
