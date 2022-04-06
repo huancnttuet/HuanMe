@@ -38,8 +38,8 @@ const Header = () => {
 							</a>
 						</li>
 						<li className='nav_item' onClick={handleClick}>
-							<a href='/#portfolio' className='nav__link'>
-								<i class='uil uil-scenery nav__icon'></i> Portfolio
+							<a href='/blog' className='nav__link'>
+								<i class='uil uil-scenery nav__icon'></i> Xàm
 							</a>
 						</li>
 						<li className='nav_item' onClick={handleClick}>

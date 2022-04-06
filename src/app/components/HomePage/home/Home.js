@@ -4,13 +4,28 @@ const Home = () => {
 			<div className='home__container container grid'>
 				<div className='home__content grid'>
 					<div className='home__social'>
-						<a href='https://www.linkedin.com/in/phan-l%C6%B0%C6%A1ng-hu%C3%A2n-48b429192/'  rel="noreferrer" className='home__social-icon' target='_blank'>
+						<a
+							href='https://www.linkedin.com/in/phan-l%C6%B0%C6%A1ng-hu%C3%A2n-48b429192/'
+							rel='noreferrer'
+							className='home__social-icon'
+							target='_blank'
+						>
 							<i class='uil uil-linkedin'></i>
 						</a>
-						<a href='https://github.com/huancnttuet'  rel="noreferrer" className='home__social-icon' target='_blank'>
+						<a
+							href='https://github.com/huancnttuet'
+							rel='noreferrer'
+							className='home__social-icon'
+							target='_blank'
+						>
 							<i class='uil uil-github-alt'></i>
 						</a>
-						<a href='https://www.facebook.com/mok.stargold'  rel="noreferrer" className='home__social-icon' target='_blank'>
+						<a
+							href='https://www.facebook.com/mok.stargold'
+							rel='noreferrer'
+							className='home__social-icon'
+							target='_blank'
+						>
 							<i class='uil uil-facebook'></i>
 						</a>
 					</div>
@@ -46,10 +61,11 @@ const Home = () => {
 					</div>
 
 					<div className='home__data'>
-						<h1 className='home__title'>Hi, I'am Mok</h1>
+						<h1 className='home__title'>Hi, I'm Mokie</h1>
 						<h3 className='home__subtitle'>Developer</h3>
 						<p className='home__description'>
-						The only person you should try to be better than is the person you were yesterday.
+							The only person you should try to be better than is the person you
+							were yesterday.
 						</p>
 						<a href='/#contact' className='button button--flex'>
 							Contact Me <i class='uil uil-message button__icon'></i>

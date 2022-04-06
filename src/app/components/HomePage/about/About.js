@@ -10,7 +10,7 @@ const About = () => {
 
 				<div className='about__data'>
 					<p className='about__description'>
-						There is no elevator to success — you have to take the stairs.
+						Don't cry because it's over, smile because it happened.
 					</p>
 
 					<div className='about__info'>

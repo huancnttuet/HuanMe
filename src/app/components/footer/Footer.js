@@ -10,25 +10,21 @@ const Footer = () => {
 						</div>
 						<ul className='footer__links'>
 							<li>
-								<a href='#services' className='footer__link'>
-									Services
+								<a href='/' className='footer__link'>
+									Trang chủ
 								</a>
 							</li>
-							<li>
-								<a href='#services' className='footer__link'>
-									Services
+							 <li>
+								<a href='/blog' className='footer__link'>
+									Xàm xí
 								</a>
 							</li>
-							<li>
-								<a href='#contact' className='footer__link'>
-									Contactme
-								</a>
-							</li>
+				
 						</ul>
 
 						<div className='footer__socials'>
 							<a
-								href='https://www/facebook.com/mok.stargold'
+								href='https://facebook.com/mok.stargold'
 								target='_blank'
 								rel='noreferrer'
 								className='footer__social'
@@ -36,7 +32,7 @@ const Footer = () => {
 								<i class='uil uil-facebook'></i>
 							</a>
 							<a
-								href='https://www/facebook.com/mok.stargold'
+								href='https://www.instagram.com/system34z/'
 								target='_blank'
 								rel='noreferrer'
 								className='footer__social'
@@ -44,7 +40,7 @@ const Footer = () => {
 								<i class='uil uil-instagram'></i>
 							</a>
 							<a
-								href='https://www/facebook.com/mok.stargold'
+								href='https://github.com/huancnttuet'
 								target='_blank'
 								rel='noreferrer'
 								className='footer__social'
