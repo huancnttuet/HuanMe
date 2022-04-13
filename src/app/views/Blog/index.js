@@ -21,15 +21,11 @@ const Blog = () => {
         mình. Người ta bảo rằng khi đạt được thứ gì đó thì thường sẽ không
         trân trọng nó nữa, có lẽ bây giờ khi đã có đủ những thứ tôi muốn rồi
         đáng ra phải hạnh phúc chứ, ấy mà sao vẫn cảm thấy trong lòng mình
-        trống rỗng đến vậy. Mình thực sự không giỏi để chuyện. Đây có lẽ là
-        những dòng nhật ký thì đúng hơn. Chợt nhận ra có nhiều thứ thật khó để
-        có được. Ủa alo, có phải mày đã qua 25 tuổi rồi không. Thời gian trôi
+        trống rỗng đến vậy. Chợt nhận ra có nhiều thứ thật khó để
+        có được. Thời gian trôi
         nhanh quá, tối nay đi gặp đứa bạn chơi thân hồi 2 đứa còn nằm ôm nhau
         lúc mới đi bộ đội năm 18. Ấy vậy mà bây giờ đã thấm thoát 7 năm rồi.
-        Trước giờ mình quen nó 2 thằng độc thân như nhau ấy vậy mà bây giờ nó
-        đã có bồ để rước.
-      </p>
-      - Ủa mà mày có người yêu chưa`,
+      </p>`,
 		},
 		{
 			title: 'Chiếc lót chuột mới',
